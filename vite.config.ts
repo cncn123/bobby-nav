@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 import GlobPlugin from 'vite-plugin-glob'
 
 export default defineConfig({
+  base: '/bobby-nav/',
   plugins: [react(), GlobPlugin()],
   esbuild: {
     logOverride: {
